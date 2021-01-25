@@ -1,0 +1,36 @@
+.logo {
+  color: var(--accent-color);
+  font-family: var(--logo-font);
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1.167;
+  text-decoration: none;
+
+  @media screen and (min-width: 1200px) {
+    font-size: 26px;
+    line-height: 1.192;
+  }
+}
+
+.logo-right.dark-theme {
+  color: #000000;
+}
+
+.logo-right.light-theme {
+  color: var(--primary-white-color);
+}
+
+.logo.header-locate {
+  @media screen and (min-width: 768px) {
+    margin-right: 88px;
+  }
+
+  @media screen and (min-width: 1200px) {
+    margin-right: 93px;
+  }
+}
+
+// .logo.footer-locate {
+//   display: inline-block;
+//   margin-bottom: 20px;
+// }
