@@ -19,10 +19,10 @@
   &:focus {
     background-color: #188ce8;
   }
-}
 
-.accent-btn.personal-locate {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+  &.personal-locate {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
