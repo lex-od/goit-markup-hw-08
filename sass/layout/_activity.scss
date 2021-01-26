@@ -1,0 +1,33 @@
+.activity {
+  @media screen and (max-width: 1199px) {
+    display: none;
+  }
+}
+
+.activity-list {
+  display: flex;
+  margin: -15px;
+}
+
+.activity-list-item {
+  position: relative;
+
+  width: calc(100% / 3 - 30px);
+  margin: 15px;
+}
+
+.activity-list-name {
+  position: absolute;
+
+  bottom: 0;
+  width: 100%;
+  padding-top: 27px;
+  padding-bottom: 27px;
+
+  background-color: rgba(47, 48, 58, 0.8);
+
+  font-size: 14px;
+  text-align: center;
+  text-transform: uppercase;
+  color: var(--primary-white-color);
+}
