@@ -216,25 +216,25 @@
           <ul class="activity-list">
             <li class="activity-list-item">
               <img
-                src="./images/what-are-we-doing-01.jpg"
+                srcset="./images/activity/product-1@2x.jpg 2x"
+                src="./images/activity/product-1.jpg"
                 alt="Человек работает за компьютером, планшетом"
-                width="370"
               />
               <h3 class="activity-list-name">Десктопные приложения</h3>
             </li>
             <li class="activity-list-item">
               <img
-                src="./images/what-are-we-doing-02.jpg"
+                srcset="./images/activity/product-2@2x.jpg 2x"
+                src="./images/activity/product-2.jpg"
                 alt="Человек с телефоном, за ноутбуком"
-                width="370"
               />
               <h3 class="activity-list-name">Мобильные приложения</h3>
             </li>
             <li class="activity-list-item">
               <img
-                src="./images/what-are-we-doing-03.jpg"
+                srcset="./images/activity/product-3@2x.jpg 2x"
+                src="./images/activity/product-3.jpg"
                 alt="Дизайнер подбирает цвета на планшете"
-                width="370"
               />
               <h3 class="activity-list-name">Дизайнерские решения</h3>
             </li>
@@ -249,11 +249,28 @@
 
           <ul class="team-list">
             <li class="team-item">
-              <img
-                class="team-foto"
-                src="./images/our-team-01.jpg"
-                alt="Игорь Демьяненко"
-              />
+              <picture>
+                <source
+                  srcset="
+                    ./images/team/pc-staff-1.jpg    1x,
+                    ./images/team/pc-staff-1@2x.jpg 2x
+                  "
+                  media="(min-width: 1200px)"
+                />
+                <source
+                  srcset="
+                    ./images/team/tab-staff-1.jpg    1x,
+                    ./images/team/tab-staff-1@2x.jpg 2x
+                  "
+                  media="(min-width: 768px)"
+                />
+                <img
+                  class="team-foto"
+                  srcset="./images/team/mob-staff-1@2x.jpg 2x"
+                  src="./images/team/mob-staff-1.jpg"
+                  alt="Игорь Демьяненко"
+                />
+              </picture>
               <div class="team-label">
                 <h3 class="team-name">Игорь Демьяненко</h3>
                 <p class="team-position">Product Designer</p>
@@ -306,11 +323,28 @@
               </div>
             </li>
             <li class="team-item">
-              <img
-                class="team-foto"
-                src="./images/our-team-02.jpg"
-                alt="Ольга Репина"
-              />
+              <picture>
+                <source
+                  srcset="
+                    ./images/team/pc-staff-2.jpg    1x,
+                    ./images/team/pc-staff-2@2x.jpg 2x
+                  "
+                  media="(min-width: 1200px)"
+                />
+                <source
+                  srcset="
+                    ./images/team/tab-staff-2.jpg    1x,
+                    ./images/team/tab-staff-2@2x.jpg 2x
+                  "
+                  media="(min-width: 768px)"
+                />
+                <img
+                  class="team-foto"
+                  srcset="./images/team/mob-staff-2@2x.jpg 2x"
+                  src="./images/team/mob-staff-2.jpg"
+                  alt="Ольга Репина"
+                />
+              </picture>
               <div class="team-label">
                 <h3 class="team-name">Ольга Репина</h3>
                 <p class="team-position">Frontend Developer</p>
@@ -363,11 +397,28 @@
               </div>
             </li>
             <li class="team-item">
-              <img
-                class="team-foto"
-                src="./images/our-team-03.jpg"
-                alt="Николай Тарасов"
-              />
+              <picture>
+                <source
+                  srcset="
+                    ./images/team/pc-staff-3.jpg    1x,
+                    ./images/team/pc-staff-3@2x.jpg 2x
+                  "
+                  media="(min-width: 1200px)"
+                />
+                <source
+                  srcset="
+                    ./images/team/tab-staff-3.jpg    1x,
+                    ./images/team/tab-staff-3@2x.jpg 2x
+                  "
+                  media="(min-width: 768px)"
+                />
+                <img
+                  class="team-foto"
+                  srcset="./images/team/mob-staff-3@2x.jpg 2x"
+                  src="./images/team/mob-staff-3.jpg"
+                  alt="Николай Тарасов"
+                />
+              </picture>
               <div class="team-label">
                 <h3 class="team-name">Николай Тарасов</h3>
                 <p class="team-position">Marketing</p>
@@ -420,11 +471,28 @@
               </div>
             </li>
             <li class="team-item">
-              <img
-                class="team-foto"
-                src="./images/our-team-04.jpg"
-                alt="Михаил Ермаков"
-              />
+              <picture>
+                <source
+                  srcset="
+                    ./images/team/pc-staff-4.jpg    1x,
+                    ./images/team/pc-staff-4@2x.jpg 2x
+                  "
+                  media="(min-width: 1200px)"
+                />
+                <source
+                  srcset="
+                    ./images/team/tab-staff-4.jpg    1x,
+                    ./images/team/tab-staff-4@2x.jpg 2x
+                  "
+                  media="(min-width: 768px)"
+                />
+                <img
+                  class="team-foto"
+                  srcset="./images/team/mob-staff-4@2x.jpg 2x"
+                  src="./images/team/mob-staff-4.jpg"
+                  alt="Михаил Ермаков"
+                />
+              </picture>
               <div class="team-label">
                 <h3 class="team-name">Михаил Ермаков</h3>
                 <p class="team-position">UI Designer</p>
